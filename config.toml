@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://gregoriustanley.com/"
 languageCode = "en-us"
 title = "Stanley"
 theme = "anatole"
@@ -41,6 +41,15 @@ theme = "anatole"
     url = "/contact/"
 
 [params]
+    title = "Hi, Stanley here!"
+    author = "Stanley 2021"
+    description = """
+                <h4><i>philomath</i> — lover of learning</h4>
+                I'm a <b>data scientist</b> student at Purdue university with Business Economics. I have profound interest in the financial sector and data field. Currently, I am in pursuit of specifically <b>data analytics application into Financial Statements</b>.
+                """
+    profilePicture = "images/profile.jpg"
+    copyright = " | Based on Anatole theme"
+
     [[params.socialIcons]]
     icon = "fab fa-linkedin"
     title = "LinkedIn"
