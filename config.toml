@@ -5,50 +5,49 @@ theme = "anatole"
 
 [menu]
     [[menu.main]]
-    name = "About"
+    name = "about"
     identifier = "about"
     weight = 100
     url = "/about/"
 
     [[menu.main]]
-    name = "Blog"
+    name = "blog"
     identifier = "blog"
     weight = 101
     url = "/blog/"
 
     [[menu.main]]
-    name = "Books"
+    name = "books"
     identifier = "books"
     weight = 102
     url = "/books/"
 
     [[menu.main]]
-    name = "Experience"
+    name = "experience"
     identifier = "experience"
     weight = 103
     url = "/experience/"
 
     [[menu.main]]
-    name = "Resume"
+    name = "resume"
     identifier = "resume"
     weight = 104
     url = "/resume/"
 
     [[menu.main]]
-    name = "Contact Me"
+    name = "contact me"
     identifier = "contact"
     weight = 105
     url = "/contact/"
 
 [params]
-    title = "Hi, Stanley here!"
+    title = 'hi, Stanley here!'
     author = "Stanley 2021"
-    description = """
-                <h4><i>philomath</i> — lover of learning</h4>
-                I'm a <b>data scientist</b> student at Purdue university with Business Economics. I have profound interest in the financial sector and data field. Currently, I am in pursuit of specifically <b>data analytics application into Financial Statements</b>.
-                """
+    description = "<h4><i>philomath</i> — lover of learning</h4>"
     profilePicture = "images/profile.jpg"
     copyright = " | Based on Anatole theme"
+    contentratio = 0.65
+    readMore = true
 
     [[params.socialIcons]]
     icon = "fab fa-linkedin"
