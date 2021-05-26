@@ -5,7 +5,7 @@ theme = "anatole"
 
 [menu]
     [[menu.main]]
-    name = "about"
+    name = "about me"
     identifier = "about"
     weight = 100
     url = "/about/"
@@ -29,15 +29,21 @@ theme = "anatole"
     url = "/experience/"
 
     [[menu.main]]
+    name = "project"
+    identifier = "project"
+    weight = 104
+    url = "/project/"
+
+    [[menu.main]]
     name = "resume"
     identifier = "resume"
-    weight = 104
+    weight = 105
     url = "/resume/"
 
     [[menu.main]]
     name = "contact me"
     identifier = "contact"
-    weight = 105
+    weight = 106
     url = "/contact/"
 
 [params]
@@ -46,7 +52,7 @@ theme = "anatole"
     description = "<h4><i>philomath</i> — lover of learning</h4>"
     profilePicture = "images/profile.jpg"
     copyright = " | Based on Anatole theme"
-    contentratio = 0.65
+    contentratio = 0.7
     readMore = true
 
     [[params.socialIcons]]
